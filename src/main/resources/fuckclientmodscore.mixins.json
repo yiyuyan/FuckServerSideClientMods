@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.fuckclientmodscore_on_server.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fuckclientmodscore.refmap.json",
+  "mixins": [
+    "MainMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
